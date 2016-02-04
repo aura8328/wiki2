@@ -67,6 +67,6 @@ def application(environ, start_response):
 # application = HelloWorldApplication(application)
 ```
 
-/opt/calamari/venv/bin/uwsgi --virtualenv /opt/calamari/venv --http :8080 --gevent 100 --http-websockets --module wsgi
-
+/opt/calamari/venv/bin/uwsgi --virtualenv /opt/calamari/venv --http :8080 --gevent 100 --http-websockets --module wsgi  
+./manage.py runserver 0.0.0.0:808
 
