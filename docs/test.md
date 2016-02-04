@@ -62,4 +62,5 @@ _websocket_app <span class="token operator">=</span> uWSGIWebsocketServer<span c
 </span><span class="token comment" spellcheck="true"># from helloworld.wsgi import HelloWorldApplication
 </span><span class="token comment" spellcheck="true"># application = HelloWorldApplication(application)
 </span></code></pre>
-<p>/opt/calamari/venv/bin/uwsgi --virtualenv /opt/calamari/venv --http :8080 --gevent 100 --http-websockets --module wsgi</p>
+<p>/opt/calamari/venv/bin/uwsgi --virtualenv /opt/calamari/venv --http :8080 --gevent 100 --http-websockets --module wsgi<br>
+./manage.py runserver 0.0.0.0:808</p>
